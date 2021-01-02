@@ -1,0 +1,36 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "icon": "svgr icons -d components/icons --replace-attr-values \"#fff=currentColor\" --icon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "@svgr/cli": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "postcss-loader": "^4.1.0",
+    "postcss-nested": "^5.0.3",
+    "prettier": "^2.2.1",
+    "style-loader": "^2.0.0"
+  }
+}

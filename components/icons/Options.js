@@ -2,14 +2,7 @@ import * as React from "react";
 
 function SvgOptions(props) {
   return (
-    <svg
-      width="1em"
-      height="1em"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
+    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
       <path
         d="M12 8.21c-2.09 0-3.79 1.7-3.79 3.79s1.7 3.79 3.79 3.79 3.79-1.7 3.79-3.79-1.7-3.79-3.79-3.79zm0 6.08A2.292 2.292 0 019.71 12c0-1.264 1.03-2.29 2.29-2.29s2.29 1.026 2.29 2.29A2.292 2.292 0 0112 14.29z"
         fill="currentColor"

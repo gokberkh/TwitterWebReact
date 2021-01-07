@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 20px;
-  align-items: center;
   font-size: 40px;
   padding: 20px;
 }

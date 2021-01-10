@@ -14,7 +14,7 @@ export default {
 export const Normal = () => <Button>Save</Button>
 
 export const Theme = () => (
-  <Stack column gap={40}>
+  <Stack column>
     <ThemeButton>Tweet</ThemeButton>
     <ThemeButton full>Full Tweet</ThemeButton>
     <ThemeButton full big>

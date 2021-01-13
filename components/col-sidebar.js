@@ -9,10 +9,14 @@ function Layout({ flat }) {
   return (
     <div className={cn([styles.sidebar])}>
       <Navigation flat={flat} />
-      <ThemeButton big full>
-        Tweet
-      </ThemeButton>
-      <ProfileBox />
+      <div className={styles.tweet}>
+        <ThemeButton big full={!flat}>
+          {flat ? 'a' : 'Tweet'}
+        </ThemeButton>
+      </div>
+      <div className={styles.profile}>
+        <ProfileBox flat={flat} />
+      </div>
     </div>
   )
 }

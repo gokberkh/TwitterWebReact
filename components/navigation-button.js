@@ -1,19 +1,31 @@
 import React from 'react'
 import cn from 'classnames'
 
-import Button from './button'
+import Comp from './button'
 
 import styles from './navigation-button.module.css'
 
-function NavigationButton({ notify, selected, children, ...props }) {
+function NavigationButton({
+  href,
+  notify,
+  selected,
+  children,
+  className,
+  ...props
+}) {
   return (
-    <Button
-      className={cn(styles.navButton, selected && styles.navButtonSelected)}
+    <Comp
+      className={cn(
+        styles.navButton,
+        selected && styles.navButtonSelected,
+        className
+      )}
+      href={href}
       {...props}
     >
       {notify > 0 && <span className={styles.notify}>{notify}</span>}
       {children}
-    </Button>
+    </Comp>
   )
 }
 

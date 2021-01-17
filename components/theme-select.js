@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import cn from 'classnames'
 
 import styles from './theme-select.module.css'
+import StoreContext from '../store'
 
 const THEME = {
   light: 'Light',
@@ -10,7 +11,7 @@ const THEME = {
 }
 
 function ThemeSelect({}) {
-  const [selectedTheme, selectedThemeSet] = useState('light')
+  const store = useContext(StoreContext)
 
   return (
     <div className={styles.container}>
@@ -20,8 +21,8 @@ function ThemeSelect({}) {
             type="radio"
             value={theme}
             name="theme"
-            checked={theme === selectedTheme}
-            onChange={(e) => selectedThemeSet(e.target.value)}
+            checked={theme === store.theme}
+            onChange={(e) => store.changeTheme(e.target.value)}
           />
           {THEME[theme]}
         </label>

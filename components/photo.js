@@ -4,7 +4,7 @@ import cn from 'classnames'
 import styles from './photo.module.css'
 
 function Photo({
-  src = 'https://pbs.twimg.com/profile_images/1308010958862905345/-SGZioPb_400x400.jpg',
+  src = 'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
   alt,
   size = 47
 }) {

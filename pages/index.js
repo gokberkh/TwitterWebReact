@@ -18,6 +18,15 @@ function HomePage() {
 
 NEXT , REACT , STORYBOOK ...`}
       ></Tweet>
+      <Tweet
+        name="Gökberk H."
+        slug="gokberkh"
+        datetime={new Date('2021-01-01')}
+        text={`Merhaba ikinci tweet  :)
+        
+
+NEXT , REACT , STORYBOOK ...`}
+      ></Tweet>
     </Layout>
   )
 }

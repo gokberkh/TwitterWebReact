@@ -20,7 +20,8 @@
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "storybook": "^6.1.14"
+    "storybook": "^6.1.14",
+    "twit": "^2.2.11"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",

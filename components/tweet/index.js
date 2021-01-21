@@ -7,18 +7,36 @@ import styles from './style.module.css'
 import IconButton from '../icon'
 import * as Icon from '../icons'
 
-function Tweet({ name, slug, datetime, text }) {
+function Tweet({
+  created_at,
+  favorite_count,
+  favorited,
+  retweet_count,
+  retweet,
+  text,
+  user
+}) {
+  //created_at
+  //favorite_count
+  //retweet_count
+  //retweet
+  //text
+  //user.name
+  //user.profile_image_url_https
+  //user.screen_name
+
   return (
     <article className={styles.tweet}>
       {/*avatar*/}
       <div className={styles.avatar}>
-        <Photo></Photo>
+        <Photo src={user.profile_image_url_https} />
       </div>
       {/*avatar*/}
       <div className={styles.body}>
         <header className={styles.header}>
-          <span className={styles.name}>{name} </span> <span>@{slug}</span> ·{' '}
-          <span>{formatDistanceToNowStrict(datetime)}</span>
+          <span className={styles.name}>{user.name} </span>{' '}
+          <span>@{user.screen_name}</span> ·{' '}
+          <span>{formatDistanceToNowStrict(new Date(created_at))}</span>
         </header>
         <div className={styles.content}>{text}</div>
         <footer className={styles.footer}>
@@ -27,7 +45,7 @@ function Tweet({ name, slug, datetime, text }) {
             <IconButton className={styles.actionButton}>
               <Icon.Reply></Icon.Reply>
             </IconButton>
-            <span>5</span>
+            {false && <span>5</span>}
           </div>
 
           {/* retweet */}
@@ -35,14 +53,15 @@ function Tweet({ name, slug, datetime, text }) {
             <IconButton className={styles.actionButton}>
               <Icon.Retweet />
             </IconButton>
-            <span>58</span>
+            {retweet_count && <span>{retweet_count}</span>}
           </div>
 
           {/* like */}
           <div className={styles.footerButton}>
             <IconButton className={styles.actionButton}>
-              <Icon.Like></Icon.Like>
+              {favorited ? <Icon.Like /> : <Icon.Like />}
             </IconButton>
+            {favorite_count && <span>{favorite_count}</span>}
           </div>
 
           {/* share */}

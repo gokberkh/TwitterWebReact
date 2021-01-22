@@ -12,8 +12,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -47,8 +47,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -82,8 +82,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -117,8 +117,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -152,8 +152,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -187,8 +187,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -222,8 +222,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -257,8 +257,8 @@ const data = [
       'Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',
@@ -293,8 +293,8 @@ const data = [
       ' Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en',
     user: {
       id: 2244994945,
-      name: 'Twitter Dev',
-      screen_name: 'TwitterDev',
+      name: 'Gokberk H',
+      screen_name: 'gokberkh',
       profile_image_url_https:
         'https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4',
       location: 'Internet',

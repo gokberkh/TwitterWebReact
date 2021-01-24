@@ -5,20 +5,23 @@ import ThemeButton from './theme-button'
 import ProfileBox from './profile-box'
 import styles from './col-sidebar.module.css'
 import TweetModal from './tweet-modal'
+import { Tweet } from './icons'
 
 function Layout({ flat }) {
+  const [isShowModal, isShowModalSet] = React.useState(false)
+
   return (
     <div className={cn([styles.sidebar])}>
       <Navigation flat={flat} />
 
       <div className={styles.tweet}>
-        <ThemeButton big full={!flat}>
-          {flat ? 'a' : 'Tweet'}
+        <ThemeButton big full={!flat} onClick={() => isShowModalSet(true)}>
+          {flat ? <Tweet /> : 'Tweet'}
         </ThemeButton>
       </div>
 
       {/*tweet popup*/}
-      <TweetModal></TweetModal>
+      {isShowModal && <TweetModal onClick={() => isShowModalSet(false)} />}
       <div className={styles.profile}>
         <ProfileBox flat={flat} />
       </div>

@@ -9,14 +9,17 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o public/ui",
-    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
+    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\"",
+    "jsonserver": "json-server --watch db.json --port 3004"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "date-fns": "^2.16.1",
+    "json-server": "^0.16.3",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

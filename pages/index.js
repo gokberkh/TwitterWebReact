@@ -9,7 +9,9 @@ import Loading from '../components/loading'
 import styles from './index.module.css'
 
 function HomePage() {
-  const { data } = useSWR('/api/tweet', fetcher)
+  //json-server --watch db.json --port 3004
+
+  const { data } = useSWR('http://localhost:3004/data', fetcher)
 
   return (
     <Layout>

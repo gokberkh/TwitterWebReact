@@ -11,7 +11,10 @@ import styles from './index.module.css'
 function HomePage() {
   //json-server --watch db.json --port 3004
 
-  const { data } = useSWR('http://localhost:3004/data', fetcher)
+  const { data } = useSWR(
+    'https://my-json-server.typicode.com/gokberkh/TwitterWebReact/data',
+    fetcher
+  )
 
   return (
     <Layout>

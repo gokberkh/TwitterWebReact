@@ -2,16 +2,16 @@
   "data": [
     {
       "id": 1,
-      "favorite_count": 1,
-      "retweet_count": 11,
+      "favorite_count": "999 Mn",
+      "retweet_count": "999 Mn",
       "favorited": true,
       "retweet": true,
-      "created_at": "Thu Jan 21 22:00:00 +0000 2021",
+      "created_at": "Thu Jan 27 20:00:00 +0000 2021",
       "id_str": "850006245121695744",
-      "text": "Today we’re sharing our vision for the future of the Twitter API platform!\nhttps://developer.twitter.com/en",
+      "text": "Merhaba , Bu benim ilk Tweetim :)",
       "user": {
         "id": 2244994945,
-        "name": "Gokberk H",
+        "name": "Gökberk H",
         "screen_name": "gokberkh",
         "profile_image_url_https": "https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4",
         "location": "Internet",
@@ -33,16 +33,16 @@
       }
     },
     {
-      "favorite_count": 1,
-      "retweet_count": 11,
+      "favorite_count": "998 Mn",
+      "retweet_count": "998 Mn",
       "favorited": true,
       "retweet": true,
-      "created_at": "Thu Jan 21 22:00:00 +0000 2021",
+      "created_at": "Thu Jan 27 21:00:00 +0000 2021",
       "id_str": "850006245121695744",
-      "text": "Today second tweet.",
+      "text": " Bu da ikinci tweet :) ",
       "user": {
         "id": 2244994945,
-        "name": "Gokberk H",
+        "name": "Gökberk H",
         "screen_name": "gokberkh",
         "profile_image_url_https": "https://avatars0.githubusercontent.com/u/25930033?s=400&u=b4daefc78faea6f9d8a6bfdb7bdc1ed566453fd5&v=4",
         "location": "Internet",
